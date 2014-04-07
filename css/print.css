@@ -1,0 +1,270 @@
+/* RRZE-Framework - position.css V. 0.9  (06-26-01)- - - - - - - - - - */
+/* Michael Charlier - http://www.kommkonzept.de  - - - - - - - - - - - */
+/*                                                                     */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */  
+#seitenkopf{
+   display:none;
+}
+#kopf {
+	margin: 0 0 175px 0;
+}
+#kopf #suche{
+   display:none;
+} 
+#kopf #breadcrumb {
+   display:none;
+}                
+#kopf #sprungmarken {
+   display:none;
+}         
+#kopf #logo {
+	position: absolute;
+	top: 10px;
+	left: 0;  
+}
+#kopf #titel {
+	position: absolute;
+	top: 95px;
+	left: 7px;
+      font-size: 16pt; 
+      text-decoration:underline; 
+}
+#kopf #hauptmenu {
+   display: none;
+} 
+#nachkopf {
+   display: none;
+} 
+#main #menu {
+   display: none;
+} 
+#main #menu #bereichsmenu {
+	display: none;
+}
+#main #zusatzinfo {
+	display: none;
+}
+#content {
+   margin-top: 165px;
+}
+.noprint, .skip {
+   display: none;
+}
+#footer {
+}
+#footer h2 {
+   display: none;
+}
+#footer p {
+	font-size: 0.7em;
+}
+#footer #tecmenu {
+	display:none;
+}
+#footer #zusatzinfo p {
+	display: inline; 
+}
+#footer #zusatzinfo p.skip {
+	display:none;
+}
+/* Formatierungen- - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */ 
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 11pt; 
+   margin-right:10pt;
+} 
+h1{  
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:16pt;
+   font-weight:normal;
+   padding-top:2pt;
+   padding-bottom:2pt;
+} 
+h2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:14pt;
+   font-weight:normal;
+   padding-top:2pt;
+   padding-bottom:2pt   
+}  
+h3{ 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:12pt;
+   font-weight:normal;
+   padding-top:2pt; 
+   padding-bottom:2pt       
+} 
+h4{
+   font-size:11pt; 
+   padding-top:2pt;
+   padding-bottom:2pt      
+}
+p, ul{
+   font-size:10pt;
+   line-height:13pt; 
+}   
+img {
+	border: 0;
+}
+/* Box für Bilder oder Listen  - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#content .klein_box_rechts{
+   float:right;
+   width:220px;
+   margin-top:10px;
+   background-color:#fff;
+   border-left:1pt solid black;
+   padding-left:10pt;
+}
+#content .klein_box_rechts p {
+   font-size:10pt;
+   font-weight:600;
+   line-height:12pt;
+   padding-bottom:5px;   
+}
+#content .klein_box_links {
+   float:left;
+   width:220px;
+   margin-top:10px;
+   background-color:#fff;
+}
+#content .klein_box_links p {
+   font-size:10pt;
+   font-weight:600;
+   line-height:12pt;
+}
+
+#content .vollbox img {
+   float:left;
+   position:relative;
+  
+}
+
+   /* Hack für Mack \*/
+#content .vollbox:after{
+	content: '[DO NOT LEAVE IT IS NOT REAL]'; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+  /* end */   
+#content .vollbox{ 
+   width:99.4%;
+   background-color:#fff;
+   border:1px solid black;
+   padding-bottom:10pt;
+   margin: 10px 0 10px 0;  
+} 
+
+#content .vollbox img{
+   float:left;
+} 
+
+
+#content div.hinweis_wichtig {
+   float:left;
+    position:relative; /*fuer IE < 6 */
+    z-index:11;
+   width: 220px;
+   font-size:.8em;
+   font-weight:600;   
+   line-height:1.2em;
+   padding:2px 2px 2px 55px;   
+   margin: 1em;
+}
+#content div.hinweis_wichtig h3, #content div.hinweis_wichtig h4 {
+	font-weight: bold;
+	font-size: 1.2em;	
+}
+#content div.hinweis_wichtig p {
+	font-weight: normal;
+	font-size: 1em;	
+}
+#content div.hinweis {
+   float:left;
+    position:relative; /*fuer IE < 6 */
+    z-index:11;
+   font-size:.8em;
+   line-height:1.2em;
+   padding:2px 2px 2px 55px;   
+   margin: 1em;
+}
+#content div.hinweis h3, #content div.hinweis h4 {
+	font-weight: bold;
+	font-size: 1.2em;	
+}
+#content div.hinweis p {
+	font-weight: normal;
+	font-size: 1em;	
+}
+#content div.hinweisrechts {
+   float:right;
+    position:relative; /*fuer IE < 6 */
+    z-index:11;
+   font-size:.8em;
+   line-height:1.2em;
+   padding:2px 2px 2px 55px;   
+   margin: 1em;
+}
+#content div.hinweisrechts h3, #content div.hinweisrechts h4 {
+	font-weight: bold;
+	font-size: 1.2em;	
+}
+#content div.hinweisrechts p {
+	font-weight: normal;
+	font-size: 1em;	
+}
+#content div.baustelle {
+   float:left;
+    position:relative; /*fuer IE < 6 */
+    z-index:11;
+   width: 220px;
+   font-size:.8em;
+   font-weight:600;   
+   line-height:1.2em;
+   padding:2px 2px 2px 55px;   
+   margin: 1em;
+}
+#content div.baustelle h3, #content div.baustelle h4 {
+	font-weight: bold;
+	font-size: 1.2em;	
+}
+#content div.baustelle p {
+	font-weight: normal;
+	font-size: 1em;	
+}
+
+#content .vollbox img{ 
+   float:left;
+   position:relative;
+}
+   
+#content div.hinweis_wichtig {
+   border: 2px solid red;	
+   background-image: url(http://www.vorlagen.uni-erlangen.de/img/important.png);
+   background-repeat: no-repeat;
+   background-position: left center; 	
+}
+#content div.hinweis {
+   border: 2px solid #CCCC99;	
+   background-image: url(http://www.vorlagen.uni-erlangen.de/img/ktip.png);
+   background-repeat: no-repeat;
+   background-position: left center; 	
+}
+#content div.hinweisrechts {
+   border: 2px solid #CCCC99;	
+   background-image: url(http://www.vorlagen.uni-erlangen.de/img/ktip.png);
+   background-repeat: no-repeat;
+   background-position: left center; 	
+}
+#content div.baustelle {
+   border: 2px solid black;	
+   background-image: url(http://www.vorlagen.uni-erlangen.de/img/package_settings.png);
+   background-repeat: no-repeat;
+   background-position: left center; 	
+}

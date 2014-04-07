@@ -1,0 +1,44 @@
+#map {
+  height: 400px;
+  width: 500px;
+  padding: 0; margin: 0;
+  border: 1px solid #C1DAD7;
+}
+
+.olControlNoSelect {
+	/*visibility:hidden;*/
+}
+
+  div[id = "OpenLayers.Layer.Markers_31"], div[id = "OpenLayers.Control.PanZoomBar_3_zoomin_innerImage"], div[id = "OpenLayers.Control.PanZoomBar_3_zoomout_innerImage"], div[id = "OpenLayers.Control.PanZoomBar_3_panup"], div[id = "OpenLayers.Control.PanZoomBar_3_panleft"], div[id = "OpenLayers.Control.PanZoomBar_3_panright"], div[id = "OpenLayers.Control.PanZoomBar_3_pandown"], div[id = "OpenLayers.Control.PanZoomBar_3_zoomin"], div[id = "OpenLayers.Control.PanZoomBar_3_zoomout"]{
+  cursor: pointer !important;
+  }
+  
+  div[id = "OpenLayers_Control_PanZoomBar_ZoombarOpenLayers.Map_4"] {
+  cursor: auto !important;
+  }
+  
+  div[id = "OpenLayers.Control.Attribution_7"] {
+  font-family: Arial,sans-serif;
+  font-size:11px;
+  }
+  
+    .olControlAttribution {
+  bottom:0em !important;
+  }
+  
+
+  
+  .olMapViewport {
+  cursor:-moz-grab;
+  }
+  
+  .popuptitle {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight:bold;
+  }
+  
+  .popuptext {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  }

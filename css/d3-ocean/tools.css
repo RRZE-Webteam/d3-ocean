@@ -1,0 +1,478 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Tool-Stylesheet                                                     */
+/*                                                                     */
+/* Projekt Vorlagenkatalog http://www.vorlagen.uni-erlangen.de  -- - - */
+/*                                                                     */
+/* Grundvorgaben fuer optionale Ausgaben von Anwendungen - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* Spezialstylesheet fuer Ausgaben aus UnivIS */
+
+#univis-personenindex {
+}
+
+#univis-personenindex .org .organization-name {
+    display: none;
+}
+
+#univis-personenindex  .dumpdata {
+    font-size: 0.8em;
+    background-color: #eee;
+    border: 1px solid #aaa;
+}
+
+#univis-personenindex ul.groupindex-alpha {
+    padding: 0.5em;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+}
+#univis-personenindex ul.groupindex-alpha li {
+    display: inline;
+    list-style: none;
+    padding: 0.2em;
+}
+#univis-personenindex ul.groupindex-alpha li a {
+    border: 4px solid #ccc;
+
+}
+#univis-personenindex ul.groupindex-alpha li a:hover {
+   border: 4px solid #bf007f;
+}
+
+#univis-personenseite address {
+    margin-left: 2em;
+}
+#univis-personenseite ul.kontakt {
+	list-style-position: inside;
+}
+#univis-personenseite ul.kontakt li {
+    margin-left: 2em;
+}
+#univis-personenseite div.publications li h3,
+#univis-personenseite div.lectures li h3
+ {
+    display: inline;
+    background: #f9f9f9;
+    margin: 0.5em;
+    padding: 0;
+}
+#univis-personenseite div.publications div.pubdetails,
+#univis-personenseite div.lectures div.lvdetails {
+    display: inline;
+    margin-left: 1em;
+}
+
+
+/* Meldungen aus dem Feed-Import-Tools */
+/* Ergaenzungen zu den RSS-News */
+
+div.feedrahmen {
+
+}
+
+
+div.feedrahmen h2 {
+	padding: 0px 6px 0 0px;
+	margin: 0px 0 0px 0;
+	font-weight:700;
+	line-height:140%;
+}
+
+div.feedrahmen .feedeintrag {
+/*	border: 1px solid #d1d1d1; */
+	margin: 1em 1em 1.5em;
+}
+
+div.feedeintrag h3,
+div.feedeintrag h4,
+div.feedeintrag h5
+ {
+ 	background: #f0f0f0 url(../grafiken/d7/bg_hm.gif) repeat-x left -50px ;
+	padding: 0.5em;
+	display: block;
+    font-weight: bold;
+}
+div#content div.feedeintrag p,
+div.feedeintrag p,
+div.feedeintrag div.feedcontent,
+div.feedeintrag div.feedlink p,
+div#content div.feedeintrag div.feedlink p
+ {
+   font-size: 0.9em;
+   padding-left: 0.5em;
+   margin: 0.2em;
+}
+div.feedeintrag p.datum,
+div.feedeintrag div.feedcontent p.datum,
+div#content div.feedeintrag div.feedcontent p.datum,
+div.feedeintrag div.feedlink p.datum
+ {
+	color: #555;
+	font-style: oblique;
+}
+div.feedeintrag p strong {
+	font-weight: bold;
+}
+div.feedeintrag img {
+    float: right;
+    margin:0px 0px 0px 5px;
+}
+
+
+.feedrahmen .jahreskalender {
+        width: 660px;
+     	}
+.feedrahmen .jahreskalender h2 {
+       font-size: 1.2em ;
+       padding: 0.3em;
+       display: block;
+    	}
+.feedrahmen .jahreskalender table {
+        display: inline;
+        min-width: 220px;
+        margin: 5px;
+    	}
+.feedrahmen table.calendar {
+        border: 1px solid #eee;
+        border-spacing: 0;
+        empty-cells: show;
+        border-collapse: separate;
+        border: 1px solid #eee;
+        background-color: white;
+ 	text-align:center;
+     	}
+.feedrahmen table.calendar caption {
+       	text-align: center;
+       	font-weight: bold;
+    	}
+.feedrahmen table.calendar th {
+       	background-color: #ddd;
+    	}
+.feedrahmen table.calendar td {
+   	text-align: left;
+        border: 1px solid #eee;
+        padding: 2px;
+    	}
+.feedrahmen table.calendar td.weekend {
+        background-color: #eee;
+        border: 1px solid #ddd;
+     	}
+.feedrahmen table.calendar td.current {
+       	border: 1px solid red;
+       	font-weight:bold;
+	color:#c00;
+      	}
+.feedrahmen table.calendar td:hover {
+        border: 1px solid #ccc;
+        background-color: #ddd;
+      	}
+.feedrahmen table.calendar td.used {
+	font-weight:bold;
+	background-color: #ccc;
+      	}
+.feedrahmen table.empty caption {
+	color:#ccc;
+      	}
+.feedrahmen table.empty th{
+	color:#fff;
+    	}
+.feedrahmen table.current caption{
+	color:#c00;
+      	}
+
+
+/*  ------------------------------------------------------
+FOOTER - FOOTERINFOS - ZUSATZINFO - STYLESWITCHER
+--------------------------------------------------------*/
+div#footer div#footerinfos div#zusatzinfo div.styleswitcher ul {
+	margin: 0 0 12px 0;
+}
+div#footer div#footerinfos div#zusatzinfo div.styleswitcher ul  li a {
+	font-size: 0.76em;
+	text-decoration: underline;
+	padding: 0 0 0 8px;
+}
+
+div#footer div#footerinfos div#zusatzinfo div.styleswitcher ul  li a:focus,
+div#footer div#footerinfos div#zusatzinfo div.styleswitcher ul  li a:active {
+	font-weight: bold;
+}
+
+/*  ------------------------------------------------------
+MELDUNGEN
+--------------------------------------------------------*/
+div.meldungen-rechts, div.meldungen-links{
+width: 48%;
+float:left;
+}
+
+
+div.meldungen {
+margin: 5px 10px 0px 0;
+/*inline-styles*/
+/*padding:4px;*/
+border-width: 0px 0px 1px 0px;
+border-style: solid;
+
+}
+
+div.meldungen h2 {
+padding: 0px 6px 0 0px;
+margin: 0px 0 0px 0;
+font-size:0.76em !important;
+font-weight:700;
+line-height:140%;
+}
+
+div.meldungen p {
+font-size: 0.76em !important;
+margin: -2px  0 14px 0 !important;
+padding: 0px 6px 0 0px;
+line-height: 140% !important;
+}
+div.meldungen img {
+float:right;
+margin:0px 0px 0px 5px;
+}
+/*  ------------------------------------------------------
+WIDGETS
+--------------------------------------------------------*/
+#searchform {
+font-size:0.76em;
+}
+#searchform label {
+display:block;
+color:#333333;
+}
+#searchform input[type="text"] {
+margin-top:0.2em;
+padding:2px 4px;
+width:10em;
+}
+#searchform input[type="submit"] {
+display:inline;
+padding:1px 2px;
+}
+
+#calendar_wrap {
+font-size:1em !important;
+}
+#calendar_wrap table#wp-calendar {
+border-collapse:collapse;
+border-style:solid;
+border-width:1px;
+margin:0 0 0px;
+width: 100%;
+}
+#calendar_wrap table#wp-calendar {
+background:url("../grafiken/d3-ocean/white.gif") repeat-x scroll 0 0 #F0F0F0;
+border-color:#D1D1D1;
+}
+#calendar_wrap th {
+font-size:0.76em;
+padding:6px;
+text-align:right;
+}
+#calendar_wrap th[title="Samstag"],
+#calendar_wrap th[title="Sonntag"]{
+color:red;
+}
+#calendar_wrap th {
+color:#333333;
+}
+#calendar_wrap td {
+font-size:0.76em !important;
+padding:6px;
+text-align:right;
+}
+
+/*#calendar_wrap td:nth-last-child(1),
+#calendar_wrap td:nth-last-child(2){
+color:red;
+}
+
+#calendar_wrap td:nth-child(1),
+#calendar_wrap td:nth-child(2),
+#calendar_wrap td:nth-child(3),
+#calendar_wrap td:nth-child(4),
+#calendar_wrap td:nth-child(5){
+color:#666;
+}*/
+
+#calendar_wrap td {
+color:#666666;
+}
+#calendar_wrap td#prev {
+text-align:left;
+}
+#calendar_wrap table caption {
+font-size:0.76em;
+color:#333333;
+padding:0 0 5px;
+text-align:left;
+}
+
+select#cat {
+font-size:0.76em;
+padding:2px 4px;
+}
+
+a.ntags {
+text-decoration:none !important;
+padding-left:4px;
+}
+a.ntags:link {
+color:#48546A;
+padding-left:4px;
+}
+
+a.ntags-1 { font-size: 0.75em; }
+a.ntags-2 { font-size: 0.85em; }
+a.ntags-3 { font-size: 0.95em; }
+a.ntags-4 { font-size: 1.05em; }
+a.ntags-5 { font-size: 1.10em; }
+
+.blog select {
+font-size:0.76em;
+width:12.5em;
+}
+
+#kurzinfo #sidebar3  {
+	border-style: solid;
+	border-width: 1px;
+	padding: 8px !important;
+	text-align:left;
+	width:200px;
+}
+#kurzinfo #sidebar3 h2,
+#kurzinfo #sidebar3 h3,
+#kurzinfo #sidebar3 h4,
+#kurzinfo #sidebar3 h5 {
+	font-weight: bold;
+	padding-left:2px;
+}
+
+
+
+#kurzinfo #sidebar3  p {
+padding: 0px 0px 0px 4px;
+margin: 0 0 0.5em 0;
+text-align:left;
+color:#333 !important;
+}
+
+
+#kurzinfo #sidebar3 ul{
+font-size:0.76em;
+padding: 2px 2px 0px 14px;
+}
+#kurzinfo #sidebar3 ul li{
+padding: 2px 2px 4px 2px;
+list-style-type:disc;
+}
+#kurzinfo #sidebar3 ul li,
+#kurzinfo #sidebar3 ul li a,
+#kurzinfo #sidebar3 ul li a:link{
+text-align:left;
+color:#4F4F4F;
+line-height:1.5em;
+}
+#kurzinfo #sidebar3 .blog a.ntags,
+#kurzinfo #sidebar3 .blog a:link,
+#kurzinfo #sidebar3 .blog h2{
+text-align:left !important;
+}
+
+#kurzinfo #sidebar3 ul.tweets li a,
+#kurzinfo #sidebar3 ul.tweets li a:link{
+color:#7f7f7f;
+}
+
+#kurzinfo #sidebar3 div{
+text-align:left !important;
+}
+
+
+.textwidget p{
+padding: 0px 0px 0px 4px !important;
+color:#333 !important;
+font-size:0.76em !important;
+margin:0 0 0.5em 0 !important;
+}
+.textwidget a,
+.textwidget a:link{
+color:#5f5f5f;
+}
+.blog {
+margin-bottom:0;
+}
+
+.blog ul li a,
+.blog ul li a:link{
+text-align:left;
+color:#4F4F4F;
+line-height:1.25em;
+}
+
+#content .aligncenter{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+padding:10px;
+}
+#content .alignleft {
+	float: left;
+padding:10px;
+}
+#content .alignright {
+	float: right;
+padding:10px;
+}
+
+/*  ------------------------------------------------------
+    GALLERY
+--------------------------------------------------------*/
+.gallery {
+    margin: 0 auto 5px;
+    overflow: hidden;
+    width: 100% !important;
+}
+/* Clear inherit from Theme */
+.gallery a:hover, .gallery a:focus, .gallery a:active {
+    background: none !important;
+    border: none !important;
+}
+.gallery .gallery-item {
+    float: left;
+}
+.gallery img {
+    border: 1px solid #DEDEDE;
+    padding: 8px;
+    background: #F2F2F2;
+    height: 100px;
+    width: 100px;
+}
+.gallery img:hover {
+    background: white;
+}
+.gallery .gallery-caption {
+    margin-left: 0;
+}
+.gallery-columns-2 .gallery-item { width: 20% }
+.gallery-columns-3 .gallery-item { width: 20% }
+.gallery-columns-4 .gallery-item { width: 20% }
+.gallery-columns-5 .gallery-item { width: 20% }
+.gallery-columns-6 .gallery-item { width: 16.666% }
+.gallery-columns-7 .gallery-item { width: 14.285% }
+.gallery-columns-8 .gallery-item { width: 12.5% }
+.gallery-columns-9 .gallery-item { width: 11.111% }
+
+/* Pick the second line break if two
+line breaks are adjacent */
+.gallery dl, .gallery dt {
+    margin: 0 0 5px 0 !important;
+}
+.gallery br+br {
+    display: none;
+}

@@ -1,0 +1,135 @@
+/* RRZE-Framework - position.css V. 0.9  (06-26-01)- - - - - - - - - - */
+/* Michael Charlier - http://www.kommkonzept.de  - - - - - - - - - - - */
+/*                                                                     */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */  
+#seitenkopf{
+   display: inline;
+}
+#kopf {
+	margin: 0 0 80px 0;
+}
+              
+      
+#kopf #logo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+}
+
+
+
+.noprint, .skip {
+   display:none;
+}
+#footer {
+}
+#footer h2 {
+	font-size: 0.8em;
+}
+#footer p {
+	font-size: 0.7em;
+}
+
+#footer #zusatzinfo p {
+	display: inline; 
+}
+#footer #zusatzinfo p.skip {
+	display:none;
+}
+/* Formatierungen- - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */ 
+
+body{
+   font-family: "Times New Roman", Times, serif;
+   font-size: 11pt; 
+   margin-right:10pt;
+} 
+h1{  
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:16pt;
+   font-weight:normal;
+   padding-top:2pt;
+   padding-bottom:2pt;
+} 
+h2{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:14pt;
+   font-weight:normal;
+   padding-top:2pt;
+   padding-bottom:2pt   
+}  
+h3{ 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:12pt;
+   font-weight:normal;
+   padding-top:2pt; 
+   padding-bottom:2pt       
+} 
+h4{
+   font-size:11pt; 
+   padding-top:2pt;
+   padding-bottom:2pt      
+}
+p, ul{
+   font-size:11pt;
+   line-height:13pt; 
+}   
+img {
+	border: 0;
+}
+/* Box für Bilder oder Listen  - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+#content .klein_box_rechts{
+   float:right;
+   width:220px;
+   margin-top:10px;
+   background-color:#fff;
+   border-left:1pt solid black;
+   padding-left:10pt;
+}
+#content .klein_box_rechts p{
+   font-size:10pt;
+   font-weight:600;
+   line-height:12pt;
+   padding-bottom:5px;   
+}
+#content .klein_box_links{
+   float:left;
+   width:220px;
+   margin-top:10px;
+   background-color:#fff;
+}
+#content .klein_box_links p{
+   font-size:10pt;
+   font-weight:600;
+   line-height:12pt;
+}
+
+#content .vollbox img{
+   float:left;
+   position:relative;
+}
+
+   /* Hack für Mack \*/
+#content .vollbox:after{
+	content: '[DO NOT LEAVE IT IS NOT REAL]'; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+  /* end */   
+#content .vollbox{ 
+   width:99.4%;
+   background-color:#fff;
+   border:1px solid black;
+   padding-bottom:10pt;
+   margin: 10px 0 10px 0;  
+} 
+
+#content .vollbox img{
+   float:left;
+}    
